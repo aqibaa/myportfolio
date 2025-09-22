@@ -1,12 +1,85 @@
-# React + Vite
+# Muhammad Aqib's Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Vercel Deployment](https://vercel.com/button)](https://your-live-url.vercel.app/)
 
-Currently, two official plugins are available:
+A dynamic and fully responsive personal portfolio built with React, Vite, and Tailwind CSS. This project showcases my skills in front-end development through a clean UI, interactive animations, a dual-theme system, and a functional contact form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### [Live Demo](https://your-live-url.vercel.app/)
 
-## Expanding the ESLint configuration
+![Project Screenshot](./public/screenshot.png)
+*(**Note:** Please replace `screenshot.png` with an actual screenshot of your project in the `public` folder for this to display correctly.)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Key Features
+
+-   **Fully Responsive Design:** Adapts seamlessly to all screen sizes, from mobile phones to desktops.
+-   **Dual Theme System:** A beautiful and functional Light/Dark mode toggle that persists in `localStorage`.
+-   **Interactive Animated Backgrounds:**
+    -   **Dark Mode:** A stunning, multi-colored starfield with falling "starburst" meteors.
+    -   **Light Mode:** A clean, modern background with floating geometric particles.
+-   **Smooth Animations & Transitions:** Built with Tailwind CSS and custom CSS for a fluid user experience.
+-   **Functional Contact Form:** Integrated with **EmailJS** to send messages directly to my inbox and send an auto-reply to the user.
+-   **Reusable Components:** Built with a modular and scalable component structure in React.
+-   **Optimized & Fast:** Built with **Vite** for a blazing-fast development experience and optimized production builds.
+
+---
+
+## 🛠️ Tech Stack
+
+-   **Framework:** React.js
+-   **Build Tool:** Vite
+-   **Styling:** Tailwind CSS
+-   **Icons:** Lucide React
+-   **Email Service:** EmailJS
+-   **Deployment:** Vercel
+
+---
+
+## 🚀 Getting Started
+
+Follow these instructions to set up and run the project on your local machine.
+
+### Prerequisites
+
+-   Node.js (v18 or higher)
+-   npm or yarn
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/YourUsername/your-repo-name.git
+    cd your-repo-name
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Set up Environment Variables:**
+    Create a `.env` file in the root of the project and add your EmailJS credentials. **This file is crucial for the contact form to work.**
+
+    Create a file named `.env` and add the following content:
+    ```
+    VITE_EMAILJS_SERVICE_ID=your_service_id
+    VITE_EMAILJS_TEMPLATE_ID=your_notification_template_id
+    VITE_EMAILJS_AUTO_REPLY_TEMPLATE_ID=your_auto_reply_template_id
+    VITE_EMAILJS_PUBLIC_KEY=your_public_key
+    ```
+    *(**Important:** The `.env` file is included in `.gitignore` and should never be committed to GitHub.)*
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
+
+---
+
+## 🚀 Deployment
+
+This project is deployed on **Vercel**.
+
+The deployment process is automated. Every push to the `main` branch on GitHub will trigger a new deployment. The environment variables from the `.env` file were added directly to the Vercel project settings for the production build.
