@@ -27,8 +27,8 @@ const projects = [
       " A feature-rich weather dashboard providing real-time weather, live alerts, an interactive calendar, and upcoming sports events for any city, all wrapped in a fully responsive design.",
     image: "/images/project3.png",
     tags: ["React", "Tailwind", "Weather-API"],
-    demoUrl: "https://myportfolio-eight-sigma-64.vercel.app/",
-    githubUrl: "https://github.com/aqibaa/myportfolio",
+    demoUrl: "https://global-forecast-atlas.vercel.app/",
+    githubUrl: "https://github.com/aqibaa/Global-Forecast-Atlas",
   },
 ];
 
