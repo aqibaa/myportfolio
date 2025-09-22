@@ -21,14 +21,14 @@ const projects = [
     githubUrl: "https://github.com/aqibaa/cards-game-BattleArena",
   },
   {
-    id: 3,
+      id: 3,
     title: "Global Forecast Atlas",
     description:
       " A feature-rich weather dashboard providing real-time weather, live alerts, an interactive calendar, and upcoming sports events for any city, all wrapped in a fully responsive design.",
     image: "/images/project3.png",
     tags: ["React", "Tailwind", "Weather-API"],
-    demoUrl: "https://themebau-boostrap.vercel.app/",
-    githubUrl: "https://github.com/aqibaa/Themebau-boostrap",
+    demoUrl: "https://myportfolio-eight-sigma-64.vercel.app/",
+    githubUrl: "https://github.com/aqibaa/myportfolio",
   },
 ];
 
