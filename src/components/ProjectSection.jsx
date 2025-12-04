@@ -30,6 +30,17 @@ const projects = [
     demoUrl: "https://global-forecast-atlas.vercel.app/",
     githubUrl: "https://github.com/aqibaa/Global-Forecast-Atlas",
   },
+   {
+      id: 4,
+    title: "AI Trip Planner",
+    description:
+      "  I've built a smart web application designed to eliminate the stress of travel planning. No more endless tabs and conflicting reviews—this app uses AI to craft personalized itineraries based on your unique preferences.",
+    image: "/images/project4.png",
+    tags: ["React", "Tailwind", " Vite", "Shadcn/ui", "GSAP", "Firebase",
+ "Google Gemini API", "Mapbox Geocoding API", "Pexels API", "Google OAuth"],
+    demoUrl: "https://ai-trip-planner-final.vercel.app/",
+    githubUrl: "https://github.com/aqibaa/AI-Trip-Planner-Final",
+  },
 ];
 
 const ProjectSection = () => {
