@@ -6,15 +6,27 @@ const skills = [
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
   { name: "React", level: 80, category: "frontend" },
+   { name: "Redux", level: 80, category: "frontend" },
+   { name: "Zustand", level: 70, category: "frontend" },
+      { name: "Next", level: 80, category: "frontend" },
   { name: "BootStrap", level: 90, category: "frontend" },
   { name: "Tailwind CSS", level: 90, category: "frontend" },
+   { name: "Shadcn", level: 90, category: "frontend" },
+   { name: "Material UI", level: 90, category: "frontend" },
 
 
   // Backend
   { name: "Node.js", level: 60, category: "backend" },
   { name: "Express", level: 50, category: "backend" },
+      { name: "Next", level: 80, category: "Backend" },
   { name: "MongoDB", level: 70, category: "backend" },
+  { name: "PostgreSQL", level: 80, category: "backend" },
+  { name: "Prisma-ORM", level: 70, category: "backend" },
+  { name: "Drizzle", level: 70, category: "backend" },
+  { name: "NEON-Db", level: 80, category: "backend" },
   { name: "MySQL", level: 70, category: "backend" },
+   { name: "Clerk Auth", level: 75, category: "backend" },
+    { name: "Google Auth", level: 75, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
@@ -22,7 +34,14 @@ const skills = [
   { name: "ChatGPT", level: 85, category: "tools" },
   { name: "Google AI Studio", level: 85, category: "tools" },
   { name: "DeepSeek", level: 75, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+    { name: "VS Code", level: 95, category: "tools" },
+   { name: "Google maps", level: 75, category: "tools" },
+  { name: "SendBird", level: 95, category: "tools" },
+  { name: "Cloudinary", level: 95, category: "tools" },
+    { name: "Uploadthing", level: 95, category: "tools" },
+   { name: "Stripe", level: 90, category: "tools" },
+    
+
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
