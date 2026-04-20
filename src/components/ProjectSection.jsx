@@ -4,24 +4,14 @@ const projects = [
 
   {
     id: 1,
-    title: "Real-Time News App",
-    description: "A sleek and modern news application built with HTML, CSS, JavaScript, and Bootstrap.",
-    video: "/videos/project1.mp4", // 
-    tags: ["HTML/CSS", "Boostrap", "JavaScript"],
-    demoUrl: "https://news-rc3s48nug-muhammad-aqibs-projects-53df7822.vercel.app/index.html",
-    githubUrl: "https://github.com/aqibaa/NewsApp",
+    title: "Next-Step Resume",
+    description: "Developed an AI platform for smart resume creation, mock interviews, and job-match suggestions ,Automated career guidance workflows to reduce manual effort in the job search process",
+    video: "/images/project1.png", // 
+    tags: ["NExt.js", "Tailwind-CSS", "Clerk","Google-gemini", "Drizzle-ORM", "PostgreSQL", "J-Query", "Neon-DB","Customize Editor"],
+    demoUrl: "https://fyp-seven-hazel.vercel.app/",
   },
   {
-    id: 2,
-    title: "SuperHero Cards Game",
-    description: "Ready for the ultimate superhero showdown? Check out my new game: Card Battle Arena!",
-    video: "/videos/project2.mp4",
-    tags: ["HTML/CSS", "Bootstrap", "JS"],
-    demoUrl: "https://cards-game-battle-arena.vercel.app/",
-    githubUrl: "https://github.com/aqibaa/cards-game-BattleArena",
-  },
-  {
-      id: 3,
+      id: 2,
     title: "Global Forecast Atlas",
     description:
       " A feature-rich weather dashboard providing real-time weather, live alerts, an interactive calendar, and upcoming sports events for any city, all wrapped in a fully responsive design.",
@@ -31,7 +21,7 @@ const projects = [
     githubUrl: "https://github.com/aqibaa/Global-Forecast-Atlas",
   },
    {
-      id: 4,
+      id: 3,
     title: "AI Trip Planner",
     description:
       "  I've built a smart web application designed to eliminate the stress of travel planning. No more endless tabs and conflicting reviews—this app uses AI to craft personalized itineraries based on your unique preferences.",
@@ -42,7 +32,7 @@ const projects = [
     githubUrl: "https://github.com/aqibaa/AI-Trip-Planner-Final",
   },
    {
-      id: 5,
+      id: 4,
     title: "Car Market Place",
     description: "A modern Full-Stack Car Marketplace platform enabling users to buy, sell, and negotiate via real-time chat. Built with Next.js 15, Drizzle ORM, NeonDB, and Clerk.",
     image: "/images/project5.png",
@@ -52,7 +42,7 @@ const projects = [
     githubUrl: "https://github.com/aqibaa/CarMarketPlace",
   },
    {
-      id: 6,
+      id: 5,
     title: "My-E-Shop",
     description:"Over the past few weeks, I’ve been building a complete, production-ready e-commerce web application from scratch. My goal was to move beyond standard templates and build a highly scalable, real-world architecture that handles everything from complex product variants to secure payment webhooks.",
     image: "/images/project6.png",
