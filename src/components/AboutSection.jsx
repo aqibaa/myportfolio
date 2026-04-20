@@ -36,8 +36,8 @@ const AboutSection = () => {
               </a>
 
               <a
-                href="public/resume/Aqib's-ResumeJobs (1)" 
-                download="Aqib's-ResumeJobs (1)" 
+                href="public/resume/Aqib's-ResumeJobs (1).pdf" 
+                download="Aqib's-ResumeJobs (1).pdf" 
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download Resume
