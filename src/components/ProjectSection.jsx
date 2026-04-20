@@ -41,6 +41,26 @@ const projects = [
     demoUrl: "https://ai-trip-planner-final.vercel.app/",
     githubUrl: "https://github.com/aqibaa/AI-Trip-Planner-Final",
   },
+   {
+      id: 5,
+    title: "Car Market Place",
+    description: "A modern Full-Stack Car Marketplace platform enabling users to buy, sell, and negotiate via real-time chat. Built with Next.js 15, Drizzle ORM, NeonDB, and Clerk.",
+    image: "/images/project5.png",
+    tags: ["Next-js", "React" ,"Tailwind", "SandBird Chat App", "Shadcn/ui", "Drizzle-ORM", "Clerk Auth",
+ "UploadThing",],
+    demoUrl: "https://car-market-place-drab.vercel.app/",
+    githubUrl: "https://github.com/aqibaa/CarMarketPlace",
+  },
+   {
+      id: 6,
+    title: "My-E-Shop",
+    description:"Over the past few weeks, I’ve been building a complete, production-ready e-commerce web application from scratch. My goal was to move beyond standard templates and build a highly scalable, real-world architecture that handles everything from complex product variants to secure payment webhooks.",
+    image: "/images/project6.png",
+    tags: ["Next-js", "Tailwind", "PostgreSQL", "Shadcn/ui", "Prisma-ORM", "Stripe",
+ "cloudinary", "Nodmailer", "Framer-motion", "NeonDB", "Clerk Auth","Zustand"],
+    demoUrl: "https://my-e-shop-iota.vercel.app/",
+    githubUrl: "https://github.com/aqibaa/My-E-Shop",
+  },
 ];
 
 const ProjectSection = () => {
