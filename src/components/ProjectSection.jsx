@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Next-Step Resume",
     description: "Developed an AI platform for smart resume creation, mock interviews, and job-match suggestions ,Automated career guidance workflows to reduce manual effort in the job search process",
-    video: "/images/project1.png", // 
+    image: "/images/project1.png", // 
     tags: ["NExt.js", "Tailwind-CSS", "Clerk","Google-gemini", "Drizzle-ORM", "PostgreSQL", "J-Query", "Neon-DB","Customize Editor"],
     demoUrl: "https://fyp-seven-hazel.vercel.app/",
   },
