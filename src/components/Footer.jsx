@@ -34,9 +34,6 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/aaqib-aarif/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-primary transition-colors">
                 <Linkedin size={22} />
               </a>
-              <a href="https://instagram.com//aaqib.aarif/" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="hover:text-primary transition-colors">
-                <Instagram size={22} />
-              </a>
             </div>
           </div>
 
